@@ -32,6 +32,3 @@ My research interests lies broadly in `NLP (Natural Language Processing)` and `M
 3. **AI Agent**: Designing AI agent for task-solving and human-simulation; enhancing interactive capabilities among models, humans, and external environments.
 
 Other than the directions mentioned, I'm always passionate about and open to exploring other topics that contribute to building reliable AI. Please feel free to reach out if you have any questions or would like to discuss research and collaboration.
-<!-- - improving AI's `fairness, robustness and controlability`, promoting `AI for Social Good`, and preventing `W.E.I.R.D. AI` (Western, Educated, Industrialized, Rich, Democratic), check out our recent survey paper on [why AI is W.E.I.R.D. and shouldn't be this way](https://longjubai.github.io/publications/) -->
-
-<!-- Technically,  -->

@@ -7,3 +7,9 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+
+
+
+<!-- - improving AI's `fairness, robustness and controlability`, promoting `AI for Social Good`, and preventing `W.E.I.R.D. AI` (Western, Educated, Industrialized, Rich, Democratic), check out our recent survey paper on [why AI is W.E.I.R.D. and shouldn't be this way](https://longjubai.github.io/publications/) -->
+
+<!-- Technically,  -->
