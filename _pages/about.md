@@ -23,6 +23,15 @@ Hi! I'm a research assistant at the University of Michigan, Ann Arbor, where I'm
 
 Previously, I received my master’s degree in Electrical and Computer Engineering from the University of Michigan, Ann Arbor, with a specialization in Signal and Image Processing and the Machine Learning track.
 
-My research interests lies broadly in `NLP (Natural Language Processing)` and `Multimodal AI`, with an aim of creating trustworthy and responsible intelligence systems - improving AI's `fairness, robustness and controlability`, promoting `AI for Social Good`, and preventing `W.E.I.R.D. AI` (Western, Educated, Industrialized, Rich, Democratic), check out our recent survey paper on [why AI is W.E.I.R.D. and shouldn't be this way](https://longjubai.github.io/publications/)
+My research interests lies broadly in `NLP (Natural Language Processing)` and `Multimodal AI`, with an aim of creating `Trustworthy` and `Responsible` intelligence systems. Currently, my research projects are centered around the following aspects:
 
-Technically, 
+1. **AI For Social Good**: Improving AI fairness, inclusiveness, and cross-cultural capabilities; enhancing AI for social good applications; reducing bias and harmful outputs.
+
+2. **AI Transparency**: Improving AI interpretability and controllability through mechanistic analysis and representation engineering; improving AI alignment, robustness, and reasoning ability.
+
+3. **AI Agent**: Designing AI agent for task-solving and human-simulation; enhancing interactive capabilities among models, humans, and external environments.
+
+Other than the directions mentioned, I'm always passionate about and open to exploring other topics that contribute to building reliable AI. Please feel free to reach out if you have any questions or would like to discuss research and collaboration.
+<!-- - improving AI's `fairness, robustness and controlability`, promoting `AI for Social Good`, and preventing `W.E.I.R.D. AI` (Western, Educated, Industrialized, Rich, Democratic), check out our recent survey paper on [why AI is W.E.I.R.D. and shouldn't be this way](https://longjubai.github.io/publications/) -->
+
+<!-- Technically,  -->
