@@ -3,8 +3,8 @@ layout: post
 title: A Brief Summary on Positional Encoding Methods
 date: 2024-08-22
 description: A summary of positional encoding methods in transformers
-tags: transformers, positional encoding, deep learning
-categories: NLP, Machine Learning
+tags: transformers positional-encoding
+categories: research
 ---
 
 ## Preliminary
@@ -22,7 +22,7 @@ $$
 q_m = f_q(x_m, m), \quad
 k_n = f_k(x_n, n), \quad
 v_n = f_v(x_n, n)
-\label{eq:1}
+\tag{1}
 $$
 
 The query and key values are then used to compute the attention weights, while the output is computed as the weighted sum over the value representations.
@@ -30,10 +30,10 @@ The query and key values are then used to compute the attention weights, while t
 $$
 a_{m,n} = \frac{\exp\left( \frac{ q_m^\top k_n }{ \sqrt{d} } \right)}{ \sum_{j=1}^{N} \exp\left( \frac{ q_m^\top k_j }{ \sqrt{d} } \right)}, \quad
 o_m = \sum_{n=1}^{N} a_{m,n} v_n
-\label{eq:2}
+\tag{2}
 $$
 
-The existing approaches of transformer-based positional encoding mainly focus on choosing a suitable function to form Equation \eqref{eq:1}.
+The existing approaches of transformer-based positional encoding mainly focus on choosing a suitable function to form Equation (1).
 
 ---
 
@@ -45,7 +45,7 @@ There are usually two forms of APE:
 
   $$
   f_{t \in \{ q, k, v \} }\left( \boldsymbol{x}_{i}, i \right) := \boldsymbol{W}_{t \in \{ q, k, v \} } \left( \boldsymbol{x}_{i} + \boldsymbol{p}_{i} \right)
-  \label{eq:3}
+  \tag{3}
   $$
 
 - **Generate $$ \boldsymbol{p}_{i} $$ using the sinusoidal function:**
@@ -55,7 +55,7 @@ There are usually two forms of APE:
   \boldsymbol{p}_{i, 2t} = \sin \left( \frac{i}{10000^{2t / d}} \right), \\
   \boldsymbol{p}_{i, 2t+1} = \cos \left( \frac{i}{10000^{2t / d}} \right)
   \end{cases}
-  \label{eq:4}
+  \tag{4}
   $$
 
 The first form is used in the GPT-2 model; thus, when facing unseen input lengths, there will be no position embeddings beyond the maximum length encountered during training.
@@ -74,7 +74,7 @@ We introduce the original RePE proposed by Shaw et al. in 2018 and a simplified 
   f_{k}\left( \boldsymbol{x}_{n}, n \right) &= \boldsymbol{W}_{k} \left( \boldsymbol{x}_{n} + \tilde{\boldsymbol{p}}_{r}^{k} \right), \\
   f_{v}\left( \boldsymbol{x}_{n}, n \right) &= \boldsymbol{W}_{v} \left( \boldsymbol{x}_{n} + \tilde{\boldsymbol{p}}_{r}^{v} \right)
   \end{aligned}
-  \label{eq:5}
+  \tag{5}
   $$
 
   where $$ \tilde{\boldsymbol{p}}_{r}^{k}, \tilde{\boldsymbol{p}}_{r}^{v} \in \mathbb{R}^{d} $$ are trainable relative position embeddings. Note that $$ r = \operatorname{clip}\left( m - n, r_{\min}, r_{\max} \right) $$ represents the relative distance between positions $$ m $$ and $$ n $$.
@@ -110,6 +110,7 @@ f_{\{ q, k \} }\left( \boldsymbol{x}_{m}, m \right) =
 \sin m \theta & \cos m \theta
 \end{pmatrix}
 \boldsymbol{W}_{ \{ q, k \} } \boldsymbol{x}_m
+\tag{6}
 $$
 
 where:
@@ -128,6 +129,7 @@ This is achieved by dividing the $$ d $$-dimensional space into $$ d/2 $$ sub-bl
 
 $$
 f_{\{ q, k \} }\left( \boldsymbol{x}_{m}, m \right) = \boldsymbol{R}_{\Theta, m}^{d} \boldsymbol{W}_{ \{ q, k \} } \boldsymbol{x}_m
+\tag{7}
 $$
 
 where $$ \boldsymbol{R}_{\Theta, m}^{d} $$ is the block-diagonal rotation matrix for position $$ m $$, constructed as:

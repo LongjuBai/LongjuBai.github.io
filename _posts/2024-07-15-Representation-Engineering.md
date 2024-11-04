@@ -3,8 +3,8 @@ layout: post
 title: "Representation Engineering: A Top-Down Approach to AI Transparency"
 date: 2024-07-15
 description: Exploring Representation Engineering (RepE) as a parallel research paradigm for interpretability and controllability in LLMs.
-tags: representation-engineering interpretability AI transparency
-categories: research
+tags: representation-engineering interpretability paper-sharing
+categories: paper-sharing
 ---
 
 ### Introduction to Representation Engineering (RepE)
