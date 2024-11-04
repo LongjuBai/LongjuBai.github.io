@@ -4,7 +4,7 @@ title: A Brief Summary on Positional Encoding Methods
 date: 2024-08-22
 description: A summary of positional encoding methods in transformers
 tags: transformers positional-encoding
-categories: research
+categories: Research NLP-Foundations
 ---
 
 ## Preliminary
