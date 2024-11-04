@@ -23,12 +23,12 @@ Hi! I'm a research assistant at the University of Michigan, Ann Arbor, where I'm
 
 Previously, I received my master’s degree in Electrical and Computer Engineering from the University of Michigan, Ann Arbor, with a specialization in Signal and Image Processing and the Machine Learning track.
 
-My research interests lies broadly in `NLP (Natural Language Processing)` and `Multimodal AI`, with an aim of creating `Trustworthy` and `Responsible` intelligence systems. Currently, my research projects are centered around the following aspects:
+My research interests lies broadly in `Natural Language Processing` and `Multimodal AI`, with an aim of creating `Trustworthy` and `Responsible` intelligence systems. Currently, my research projects are centered around the following aspects:
 
-1. **AI For Social Good**: Improving AI fairness, inclusiveness, and cross-cultural capabilities; enhancing AI for social good applications; reducing bias and harmful outputs.
+1. **AI Transparency**: Improving AI interpretability and controllability through mechanistic analysis and representation engineering; improving AI alignment, robustness, and reasoning ability.
 
-2. **AI Transparency**: Improving AI interpretability and controllability through mechanistic analysis and representation engineering; improving AI alignment, robustness, and reasoning ability.
+2. **AI for Social Good**: Improving AI fairness, inclusiveness, and cross-cultural capabilities; enhancing AI for social good applications; reducing bias and harmful outputs.
 
-3. **AI Agent**: Designing AI agent for task-solving and human-simulation; enhancing interactive capabilities among models, humans, and external environments.
+3. **AI Agent**: Designing AI agents for task-solving and human-simulation; enhancing interactive capabilities among models, humans, and external environments.
 
-Other than the directions mentioned, I'm always passionate about and open to exploring other topics that contribute to building reliable AI. Please feel free to reach out if you have any questions or would like to discuss research and collaboration.
+Other than the directions mentioned, I'm always passionate about and open to exploring other topics that contribute to building more reliable AI systems. Please feel free to reach out if you have any questions or would like to discuss research and collaboration.
