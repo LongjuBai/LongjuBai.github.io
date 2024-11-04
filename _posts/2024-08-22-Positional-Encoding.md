@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Brief Summary on Positional Encoding Methods
-date: 2024-08-22
+date: 2024-08-01
 description: An overview of different positional encoding techniques used in transformers.
 tags: transformers positional-encoding machine-learning
 categories: research
