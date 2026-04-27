@@ -2,6 +2,6 @@
 layout: none
 permalink: /assets/pdf/CV_LongjuBai.pdf
 title: cv
-nav: true
+nav: false
 nav_order: 5
 ---
